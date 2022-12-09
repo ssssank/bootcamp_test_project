@@ -11,3 +11,5 @@ RUN gem install rspec:3.11.0 aruba:2.0.0
 WORKDIR /project
 
 COPY . .
+
+RUN chmod +x bin/brain-progression.js
