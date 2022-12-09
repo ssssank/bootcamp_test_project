@@ -7,4 +7,4 @@ services:
       context: .
     volumes:
       - ./:/project
-    command: make test lint
+    command: make test
